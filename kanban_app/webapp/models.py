@@ -3,7 +3,7 @@ from django.conf import settings
 
 STATUS_CHOICES = (
     ("backlog", 'queue'),
-    ("in progress", 'on-the-job'),
+    ("progress", 'on_the_job'),
     ("done", 'Сделано')
 )
 

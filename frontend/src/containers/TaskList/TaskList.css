@@ -1,0 +1,25 @@
+.task-description {
+    text-overflow: ellipsis;
+}
+
+.task-container {
+    border: 1px solid #808080;
+    padding: 20px;
+    background: #20303a
+}
+
+.task-text-container {
+    padding-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.task-status-field {
+    border-right: 1px solid black;
+    padding: 30px;
+}
+
+.task-status-field:last-child {
+    border: none;
+}
