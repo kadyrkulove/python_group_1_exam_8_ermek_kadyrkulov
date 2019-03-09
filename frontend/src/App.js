@@ -10,7 +10,7 @@ class App extends Component {
       <div className="container">
         <BrowserRouter>
             <Switch>
-                <Route path="/" component={TaskList}/>
+                <Route path="/" exact component={TaskList}/>
                 <Route path="/task/:id" component={TaskDetails}/>
             </Switch>
         </BrowserRouter>
